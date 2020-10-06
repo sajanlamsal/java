@@ -55,4 +55,9 @@ public class Car {
     public void setModel(String model) {
         this.model = model;
     }
+
+    public void speed(int maxSpeed){
+        System.out.println("Max speed is :" + maxSpeed);
+    }
+
 }

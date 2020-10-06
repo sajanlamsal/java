@@ -1,9 +1,9 @@
 package com.sujata.test;
 
-public class Toyota extends Car {
+public class Toyota extends Car implements DoubleEngine {
 
-    private  int tyre;
-    private  int mirror;
+    private int tyre;
+    private int mirror;
 
     public int getTyre() {
         return tyre;
@@ -24,8 +24,17 @@ public class Toyota extends Car {
     }
 
 
-    public void setMirror(int mirror,int color) {
+    public void setMirror(int mirror, int color) {
         this.mirror = mirror;
     }
 
+    @Override
+    public Car getOilchamber() {
+        return new Car();
+    }
+
+    @Override
+    public void test() {
+
+    }
 }
