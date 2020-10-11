@@ -32,27 +32,33 @@ public class Car {
         this.mirror = mirror;
     }
 
-    public String getSilencer() {
+    public String getSilencer()
+    {
         return silencer;
     }
 
-    public void setSilencer(String silencer) {
+    public void setSilencer(String silencer)
+    {
         this.silencer = silencer;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
 
-    public String getModel() {
+    public String getModel()
+    {
         return model;
     }
 
-    public void setModel(String model) {
+    public void setModel(String model)
+    {
         this.model = model;
     }
 
